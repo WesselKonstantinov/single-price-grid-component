@@ -15,4 +15,16 @@ body {
   background-color: var(--color-light-gray);
   color: var(--color-white);
   font-family: var(--font);
+  display: grid;
+  place-content: center;
+}
+
+/* || Price grid component styles */
+.grid {
+  margin: 2rem;
+  max-width: 19.4375rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.9375rem 1.875rem hsl(212 100% 33% / 0.15);
+  display: grid;
+  grid-template-columns: 1fr;
 }
