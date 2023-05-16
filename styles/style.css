@@ -62,11 +62,10 @@ body {
 
 .grid__plan {
   line-height: 1.16;
-}
-
-.grid__month-plan {
   display: flex;
-  gap: 0.6875rem;
+  flex-wrap: wrap;
+  column-gap: 0.6875rem;
+  row-gap: 0.25rem;
 }
 
 .grid__price {
@@ -129,4 +128,33 @@ body {
   font-size: 0.875rem;
   letter-spacing: -0.0125em;
   line-height: 1.43;
+}
+
+@media (min-width: 40.625rem) {
+  .grid {
+    max-width: 39.6875rem;
+    border-radius: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid__section {
+    padding: 2.5rem;
+  }
+
+  .grid__section--main {
+    grid-column: 1 / 3;
+  }
+
+  .grid__heading--main {
+    font-size: 1.5rem;
+  }
+
+  .grid__subheading {
+    font-size: 1.125rem;
+    margin-bottom: -0.625rem;
+  }
+
+  .grid__description {
+    font-size: 1rem;
+  }
 }
