@@ -64,8 +64,12 @@ body {
   line-height: 1.16;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 0.6875rem;
-  row-gap: 0.25rem;
+  gap: 0.25rem;
+}
+
+.grid__month-plan {
+  display: flex;
+  gap: 0.6875rem;
 }
 
 .grid__price {
@@ -104,10 +108,11 @@ body {
   background-color: var(--color-bright-yellow);
   color: inherit;
   box-shadow: 0 0.625rem 0.625rem hsl(0 0% 0% / 0.1);
-  padding: 0.9375rem;
+  padding: 0.9375rem 0 0.875rem;
   border-radius: 0.3125rem;
   font-weight: 700;
   text-align: center;
+  line-height: 1.16875;
   letter-spacing: -0.0125em;
   transition: all 0.3s ease-out 0s;
 }
