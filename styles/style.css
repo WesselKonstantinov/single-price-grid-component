@@ -4,6 +4,8 @@
 :root {
   --color-cyan: hsl(179 62% 43%);
   --color-bright-yellow: hsl(71 73% 54%);
+  --color-dark-yellow: hsl(71 33% 44%);
+  --color-dark-blue: hsl(251 73% 54%);
   --color-light-gray: hsl(204 43% 93%);
   --color-grayish-blue: hsl(218 22% 67%);
   --color-white: hsl(0 0% 100%);
@@ -33,6 +35,9 @@ body {
 .grid__section {
   padding: 1.5rem;
   background-color: var(--color-cyan);
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
 }
 
 .grid__section--main {
@@ -53,4 +58,75 @@ body {
 .grid__heading--main {
   font-size: 1.25rem;
   color: var(--color-cyan);
+}
+
+.grid__plan {
+  line-height: 1.16;
+}
+
+.grid__month-plan {
+  display: flex;
+  gap: 0.6875rem;
+}
+
+.grid__price {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.0125em;
+}
+
+.grid__unit {
+  font-size: 1rem;
+  opacity: 0.5;
+  letter-spacing: -0.0125em;
+  align-self: center;
+}
+
+.grid__subheading {
+  color: var(--color-bright-yellow);
+  letter-spacing: -0.0125em;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.3333;
+  margin-top: 0.375rem;
+}
+
+.grid__description {
+  letter-spacing: -0.0125em;
+  color: var(--color-grayish-blue);
+  font-size: 0.875rem;
+  line-height: 1.86;
+}
+
+.grid__cta {
+  display: block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  background-color: var(--color-bright-yellow);
+  color: inherit;
+  box-shadow: 0 0.625rem 0.625rem hsl(0 0% 0% / 0.1);
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.0125em;
+  transition: all 0.3s ease-out 0s;
+}
+
+.grid__cta:focus-visible {
+  outline: 0.3rem solid var(--color-dark-blue);
+  outline-offset: 0.2rem;
+}
+
+.grid__cta:hover {
+  background-color: var(--color-dark-yellow);
+}
+
+.grid__list {
+  margin: 0;
+  padding: 0;
+  opacity: 0.75;
+  font-size: 0.875rem;
+  letter-spacing: -0.0125em;
+  line-height: 1.43;
 }
