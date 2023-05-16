@@ -9,3 +9,10 @@
   --color-white: hsl(0 0% 100%);
   --font: "Karla", sans-serif;
 }
+
+/* || Global styles */
+body {
+  background-color: var(--color-light-gray);
+  color: var(--color-white);
+  font-family: var(--font);
+}
