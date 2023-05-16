@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-and-flexbox-brOuY3C5il](https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-and-flexbox-brOuY3C5il)
+- Live Site URL: [https://wesselkonstantinov.github.io/single-price-grid-component/](https://wesselkonstantinov.github.io/single-price-grid-component/)
 
 ## My process
 
