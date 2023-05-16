@@ -24,7 +24,22 @@ body {
   margin: 2rem;
   max-width: 19.4375rem;
   border-radius: 0.3125rem;
+  overflow: hidden;
   box-shadow: 0 0.9375rem 1.875rem hsl(212 100% 33% / 0.15);
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.grid__section {
+  padding: 1.5rem;
+  background-color: var(--color-cyan);
+}
+
+.grid__section--main {
+  padding: 1.75rem 1.5rem 2rem;
+  background-color: var(--color-white);
+}
+
+.grid__section--faded {
+  opacity: 0.85;
 }
