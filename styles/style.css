@@ -43,3 +43,14 @@ body {
 .grid__section--faded {
   opacity: 0.85;
 }
+
+.grid__heading {
+  font-size: 1.125rem;
+  line-height: 1.169;
+  letter-spacing: -0.0125em;
+}
+
+.grid__heading--main {
+  font-size: 1.25rem;
+  color: var(--color-cyan);
+}
